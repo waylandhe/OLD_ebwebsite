@@ -1,0 +1,5 @@
+[04-Aug-2013 06:22:06] PHP Parse error:  syntax error, unexpected '@' in /home1/whe/public_html/sendemail.php on line 3
+[27-Aug-2013 02:45:07] PHP Parse error:  syntax error, unexpected T_ECHO in /home1/whe/public_html/sendemail.php on line 10
+[27-Aug-2013 02:47:07] PHP Parse error:  syntax error, unexpected ';' in /home1/whe/public_html/sendemail.php on line 12
+[27-Aug-2013 12:21:42] PHP Parse error:  syntax error, unexpected ',' in /home1/whe/public_html/sendemail.php on line 10
+[27-Aug-2013 12:22:09] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home1/whe/public_html/sendemail.php on line 13

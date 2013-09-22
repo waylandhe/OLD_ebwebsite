@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Elaine and Brian 2013</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/mystyles.css" />
+	</head>
+	<body>
+		<div id="container">
+		<div id="nav">
+			Testing
+		</div>
+		<div id="content">
+		<hr />
+		<p>
+			Elaine and Brian sitting on a tree, <br />
+			K-i-s-s-i-n-g, <br />
+			First comes love, <br />
+			then comes marriage, <br />
+			then comes baby <br />
+			in a baby carriage! <br />
+		</p>
+		<hr />
+		<ul>
+			<li><a href="ourStory/ourStory.html">Our Story</a></li>
+			<li>The Proposal</li>
+			<li>Bride & Groom</li>
+			<li>Wedding Party</li>
+			<li>Reception</li>
+			<li>Registry</li>
+			<li>Contact Us</li>
+			<li>Guest Book</li>
+			<li>Accomodations</li>
+			<li>Directions to the Ceremony and Reception</li>
+			<li>After Party & Party Bus Getaway</li>
+			<li>Local Activities</li>
+		</ul>
+		<h1>Other Interesting Sites</h1>
+		<ul>
+			<li><a href="kevin">Kevin the Mighty Pirate</a></li>
+		</ul>
+		</div>
+	<body>
+</html>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+		"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Registry</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/eabwedding.css" />
+		<!--
+		<style type="text/css">
+			body { 
+				margin: 0; 
+				padding: 30px; 
+				min-width: 525px;
+				background-color: #ddd;
+			}
+			#header {
+				float: left;
+				width: 100%;
+				text-align: center;
+				margin-bottom: 20px;
+				background-color: #fff;
+			}
+			#footer {
+				position:relative;
+				float: left;
+				width: 100%;
+				background-color: #7152F4;
+			}
+			#wrapper {
+				float: left;
+				width: 100%;
+				background-color:white;
+				padding: 10px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			#left_side {
+				float:left;	
+				background-color: #fff;
+				width: 150px;
+				height: 500px;
+				padding: 15px;
+				margin-right: 20px;
+				border-right: 1px dotted black;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			#right_side {
+				float: right;
+				background-color: #555;
+				width:210px;
+				height:500px;
+			}
+			#content {
+			}
+
+			.floatleft {
+				float:left;
+				margin: 0px 10px 10px 0px;
+			}
+
+			#left_side li {
+				list-style-type: none;
+				font-family: serif;
+				padding-bottom: 5px;
+			}
+			#left_side ul {
+				margin: 0px;
+				padding: 0px;
+			}
+
+		</style>
+		-->
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header"><a href="index.html"><img src="images/WeddingHeader.png" alt=""/></a>
+			</div>
+			<div id="content">
+				<div id="left_side">
+					<ul>
+						<!--
+						<li><a href="ourStory/ourStory.html">Our Story</a></li>
+						<li>The Proposal</li>
+						<li>Bride & Groom</li>
+						<li>Wedding Party</li>
+						<li>Reception</li>
+						-->
+						<li><a href="registry.html">Registry</a></li>
+						<li><a href="photos.html">Photos</a></li>
+						<!--
+						<li>Contact Us</li>
+						<li>Guest Book</li>
+						<li>Accomodations</li>
+						<li>Directions</li>
+						<li>Local Activities</li>
+						-->
+					</ul>
+				</div>
+				<div id="right_side">RIGHT SIDE</div>
+				<h2>Registry Form</h2>
+				<form name="registry" method="post" action="sendemail.php">
+					<p>Full Name: <input type="text" size="20" maxlength="100" name="name" /> </p>
+					<p>Phone Number: <input type="text" size="15" maxlength="15" name="phone_number" /> </p>
+					<p>Can you attend? <br />
+					<input type="radio" name="attending" value="yes"/>Yes<br />
+					<input type="radio" name="attending" value="no"/>No</p>
+					<p><input type="submit" /></p>
+				</form>
+			</div>
+		</div>
+		<div id="footer">FOOTER</div>
+	</body>
+</html>
