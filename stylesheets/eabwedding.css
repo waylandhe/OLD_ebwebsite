@@ -50,7 +50,7 @@ body {
 	height:500px;
 	padding: 15px;
 	margin-left: 20px;
-	border-left: 1px dotted black;
+	/*border-left: 1px dotted black;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -82,4 +82,18 @@ body {
 #right_side ul {
 	margin: 0px;
 	padding: 0px;
+}
+
+#right_side a:hover {
+	color: #f00;
+}
+
+#right_side a:visited{
+	/*color: blue;
+	text-decoration: none;*/
+}
+
+#right_side a:link{
+	/*color: blue;*/
+	text-decoration: none;
 }
