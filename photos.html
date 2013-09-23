@@ -8,34 +8,31 @@
 		<script src = "js/jquery-1.10.2.min.js"></script>
 		<script src="js/lightbox-2.6.min.js"></script>
 		<style type="text/css">
-		<style type="text/css">
-		.hovergallery img{
-			-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
-			-moz-transform:scale(0.8); /*Mozilla scale version*/
-			-o-transform:scale(0.8); /*Opera scale version*/
-			-webkit-transition-duration: 2s; /*Webkit: Animation duration*/
-			-moz-transition-duration: 2s; /*Mozilla duration version*/
-			-o-transition-duration: 2s; /*Opera duration version*/
-			opacity: 0.7; /*initial opacity of images*/
-			margin: 0 10px 5px 0; /*margin between images*/
-		}
+			.hovergallery img{
+				-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+				-moz-transform:scale(0.8); /*Mozilla scale version*/
+				-o-transform:scale(0.8); /*Opera scale version*/
+				-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+				-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+				-o-transition-duration: 0.5s; /*Opera duration version*/
+				opacity: 0.7; /*initial opacity of images*/
+				margin: 0px 10px 5px 0px; /*margin between images*/
+			}
 
-		.hovergallery img:hover{
-			-webkit-transform:scale(3); /*Webkit: Scale up image to 1.2x original size*/
-			-moz-transform:scale(3); /*Mozilla scale version*/
-			-o-transform:scale(3); /*Opera scale version*/
-			box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
-			-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
-			-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
-			opacity: 1;
-		}
-
-</style>
-
-		</style>	
+			.hovergallery img:hover{
+				-webkit-transform:scale(2); /*Webkit: Scale up image to 1.2x original size*/
+				-moz-transform:scale(2); /*Mozilla scale version*/
+				-o-transform:scale(2); /*Opera scale version*/
+				box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+				-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+				-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+				opacity: 1;
+				z-index:999999;
+			}
+		</style>
 		<link href="css/lightbox.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body style="margin-left: 50px; margin-top = 50px;">
 		<p>
 			This is a template
 		</p>
